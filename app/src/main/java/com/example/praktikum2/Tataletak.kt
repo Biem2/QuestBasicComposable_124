@@ -32,3 +32,13 @@ fun LatelatakColumn(modifier: Modifier) {
         Text( "Komponen4")
     }
 }
+@Composable
+fun LatelatakRow(modifier: Modifier) {
+    Row(modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+}
