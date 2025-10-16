@@ -26,9 +26,9 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun LatelatakColumn(modifier: Modifier) {
     Column(modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
-        Text(text = "Komponen1")
-        Text(text = "Komponen2")
-        Text(text = "Komponen3")
-        Text(text = "Komponen4")
+        Text( "Komponen1")
+        Text( "Komponen2")
+        Text( "Komponen3")
+        Text( "Komponen4")
     }
 }
