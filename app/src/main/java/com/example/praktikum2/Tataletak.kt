@@ -50,9 +50,9 @@ fun LatelatakBox(modifier: Modifier) {
             .fillMaxWidth(), contentAlignment = Alignment.Center
     ) {
         Text(text = "Box 1")
-        Text(text = "Column 1")
+        Text(text = "BOOk 1")
         Text(text = "Box 2")
-        Text(text = "Column 2")
+        Text(text = "BOOk 2")
     }
 }
 @Composable
