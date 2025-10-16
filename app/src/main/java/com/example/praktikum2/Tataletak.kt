@@ -120,9 +120,9 @@ fun LatelatakRowColumn(modifier: Modifier) {
 
         //Kolom2
         Column() {
-            Text(text = "Komponen1Kolom2")
-            Text(text = "Komponen2Kolom2")
-            Text(text = "Komponen3Kolom2")
+            Text(text = "Kom1Kolom2")
+            Text(text = "Kompoolom2")
+            Text(text = "KomKolom2")
         }
     }
 }
@@ -133,7 +133,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         Box(
             modifier = modifier
                 .fillMaxWidth()
-                .height(height = 100.dp)
+                .height(height = 500.dp)
                 .background(color = Color.Yellow),
             contentAlignment = Alignment.Center
         ) {
