@@ -107,6 +107,7 @@ fun LatelatakRowColumnRow(modifier: Modifier) {
         }
     }
 }
+
 @Composable
 fun LatelatakRowColumn(modifier: Modifier) {
     Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
