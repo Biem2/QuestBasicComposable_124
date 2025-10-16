@@ -91,6 +91,23 @@ fun LatelatakColumnRow(modifier: Modifier) {
     }
 }
 @Composable
+fun LatelatakRowColumnRow(modifier: Modifier) {
+    Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+        //Kolom1
+        Column() {
+            Text(text = "Komponen1Kolom1")
+            Text(text = "Komponen2Kolom1")
+            Text(text = "Komponen3Kolom1")
+        }
+
+        //Kolom2
+        Column() {
+            Text(text = "Komponen1Kolom2")
+            Text(text = "Komponen2Kolom2")
+        }
+    }
+}
+@Composable
 fun LatelatakRowColumn(modifier: Modifier) {
     Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
         //Kolom1
@@ -104,6 +121,7 @@ fun LatelatakRowColumn(modifier: Modifier) {
         Column() {
             Text(text = "Komponen1Kolom2")
             Text(text = "Komponen2Kolom2")
+            Text(text = "Komponen3Kolom2")
         }
     }
 }
