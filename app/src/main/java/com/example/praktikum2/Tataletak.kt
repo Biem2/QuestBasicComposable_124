@@ -159,7 +159,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         Box(
             modifier = modifier
                 .fillMaxWidth()
-                .height( height = 300.dp)
+                .height( height = 490.dp)
                 .background(color = Color.Cyan),
             contentAlignment = Alignment.Center
         ){
@@ -167,7 +167,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
             Text(text = "My Music",
-                fontSize = 50.sp,
+                fontSize = 90.sp,
                 color = Color.Red,
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Cursive,
